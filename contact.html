@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Контакты</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+
+    <div class="servis">Строительство загородных домов</div>
+    <div class="address"><a href="tel:+79516458717"><strong>+7-951-645-87-17</strong></a><strong>|с 10:00 до 19:00 пн-пт | </strong><a href="mailto:stroim@mail.ru"><strong>stroim@mail.ru</strong></a></div>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="about.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="develop.html">Строительство</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Контакты</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-8">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2003.793840721285!2d30.240770616033316!3d59.85256387600141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963afa111800a1%3A0xc67944e202f161b5!2z0JvQtdC90LjQvdGB0LrQuNC5INC_0YAuLCAxMTQsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTgzMDM!5e0!3m2!1sru!2sru!4v1572295989720!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-md-4">
+                    <p>Тел:
+                        <strong><a href="tel:+79516458717">+7-951-645-87-17</a></strong>
+                    </p>
+                    <p>Email:
+                        <strong><a href="mailto:stroim@mail.ru">stroim@mail.ru</a></strong>
+                    </p>
+                    <p>Адрес:
+                        <strong>Ленинский пр. 114,
+                            <br>Санкт-Петербург, Россия 190101</strong>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Напишите нам!</strong>
+                    </h2>
+                    <hr>
+                    <p>Отправьте нам сообщение, и в течении суток с вами свяжется наш специалист и ответит на все интересующие вопросы.</p>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div id="sendmessage">Сообщение отправлено. Спасибо!</div>
+                        <div id="errormessage"></div>
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Ваше имя</label>
+                                <input type="text" class="form-control" name="name" id="name_one" data-rule="minlen:4" data-msg="Пожалуйста, введите свое имя">
+                                    <div class="validation"></div>
+
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Ваш email</label>
+                                <input  type="text" class="form-control" name="email"  id="mail_one" data-rule="email" data-msg="Пожалуйста, введите корректный email">
+                                    <div class="validation"></div>
+
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Ваш телефон</label>
+                                <input type="text" class="form-control" name="phone" id="tel_one" data-rule="minlen:4" data-msg="Пожалуйста, введите номер телефона">
+                                    <div class="validation"></div>
+
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Сообщение</label>
+                                <textarea type="text" class="form-control" rows="6" name="message" id="message_one" data-rule="required" data-msg="Пожалуйста, напишите нам что-нибудь"></textarea>
+                                    <div class="validation"></div>
+
+                            </div>
+                            <div class="form-group col-lg-12">
+                               <!-- <input type="hidden" name="save" value="contact">-->
+                                <input class="connect_form_button input-btn" type="submit" value="Отправить" >
+                               <!-- <button type="submit" class="btn btn-default">Отправить</button>-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-right">
+                    <p><a href="tel:+79516458717"><strong>+7-951-645-87-17</strong></a><strong>|с 10:00 до 19:00 пн-пт | </strong><a href="mailto:stroim@mail.ru"><strong>stroim@mail.ru</strong></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/contactform.js"></script>
+
+</body>
+
+</html>
