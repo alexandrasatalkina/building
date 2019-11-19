@@ -221,6 +221,16 @@ footer p {
 	display:block;
 }
 }
+#myModal {
+font-size: 20px;
+
+}
+#exampleModalLabel{
+    font-size: 20px;
+}
+.modal-header .close {
+    margin-top: -27px;
+}
 
 @media screen and (min-width:1200px) {
     .box:after {
